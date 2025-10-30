@@ -1,0 +1,18 @@
+parm inp.prmtop
+trajin md.nc 1 last 1000
+autoimage
+strip :WAT,Na+,Cl- 
+strip :*@H 
+rmsd :1-24 
+trajout snapshot_1.pdb onlyframes 1 
+trajout snapshot_2.pdb onlyframes 2
+trajout snapshot_3.pdb onlyframes 3
+trajout snapshot_4.pdb onlyframes 4
+trajout snapshot_5.pdb onlyframes 5
+trajout snapshot_6.pdb onlyframes 6
+trajout snapshot_7.pdb onlyframes 7
+trajout snapshot_8.pdb onlyframes 8
+trajout snapshot_9.pdb onlyframes 9
+trajout snapshot_10.pdb onlyframes 10
+go
+

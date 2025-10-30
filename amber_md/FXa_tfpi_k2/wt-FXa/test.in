@@ -1,0 +1,7 @@
+parm inp.prmtop
+trajin replicate_*/md.nc 1 last 100 
+autoimage
+strip :WAT,Na+,Cl- parmout nowater.prmtop
+rmsd :1-24 
+average test.pdb pdb
+go

@@ -1,0 +1,8 @@
+Input file for running PB and GB
+&general
+  startframe=100, endframe=50000000, interval=100,
+/
+&pb
+indi=2, exdi=80,
+/
+

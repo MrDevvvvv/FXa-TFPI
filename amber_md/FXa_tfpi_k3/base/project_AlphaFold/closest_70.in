@@ -1,0 +1,6 @@
+autoimage
+strip :Na+,Cl-
+closest 70 :XXX outprefix closest
+trajout closest_md.nc
+run
+quit

@@ -1,0 +1,13 @@
+Input file for running PB and GB
+&general
+  startframe=100, endframe=50000000, interval=100,
+/
+&gb
+  igb=2, saltcon=0.150, 
+/
+&decomp
+  idecomp=1, print_res="1-2, 17-18, 20, 24-28, 40-47, 80-86, 88, 127, 130-132, 135-137, 139, 146, 148, 160-165, 168, 171, 178-187, 203-211, 214-218, 234-241",
+  dec_verbose=1,
+/
+
+

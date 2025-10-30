@@ -1,0 +1,21 @@
+Second Equilibration Stage in Explicit Solvent
+&cntrl
+  ntt=3,             ! Temperature scaling (=3, Langevin dynamics)
+  gamma_ln=2.0,      ! Collision frequency of the Langevin dynamics in ps-1
+  ntc=2,             ! SHAKE constraints (=2, hydrogen bond lengths constrained)
+  ntf=2,             ! Force evaluation (=2, hydrogen bond interactions omitted)
+  ntb=1,             ! Boundaries (=1, constant volume)
+  cut=8.0,           ! Cutoff
+  dt=0.002,          ! The time step in picoseconds
+  nstlim=10000000,   ! Number of MD steps to be performed
+  ig=-1,             ! Random seed (=-1, get a number from current date and time)
+  ntwr=10000,        ! Restart file written every ntwr steps
+  ntwx=10000,        ! Trajectory file written every ntwx steps
+  ntpr=10000,        ! The mdout and mdinfo files written every ntpr steps
+  ioutfm=1,          ! Trajectory file format (=1, Binary NetCDF)
+  iwrap=1,           ! Translate water molecules into the original simulation box
+  igb=0,             ! GB model (=0, explicit solvent)
+  saltcon=0.15,      ! Salt concentration
+  irest=1,           ! Flag to restart the simulation
+  ntx=5,             ! Initial condition (=5, coord. and veloc. read from the inpcrd file)
+/

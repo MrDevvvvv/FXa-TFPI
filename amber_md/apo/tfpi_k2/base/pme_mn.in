@@ -1,0 +1,13 @@
+Minimize
+ &cntrl
+  ntb=1,
+  imin=1,
+  irest=0,ntx=1,
+  maxcyc=1000,ioutfm=1,
+  ncyc=250,
+  ntpr=1,
+  ntwx=0,
+  ig= -1,
+ cut	=10,
+ ntpr=500, ntwx=500, ntwf=500,ntxo=2,
+&end

@@ -1,0 +1,75 @@
+
+
+================================================================================Citrullination Site Prediction for: sp|P10646|TFPI1_HUMAN
+Sequence length: 304 amino acids
+Total arginine residues: 17
+Potential citrullination sites: 16
+
+================================================================================
+
+Position  Context                  Overall Score  Best PAD  PAD1    PAD2    PAD3    PAD4    
+--------------------------------------------------------------------------------
+223       LTPAD[R]GLCRA            1.37     PAD2      1.43   1.47   1.28   1.31
+135       DPGIC[R]GYITR            1.35     PAD2      1.33   1.39   1.35   1.34
+93        EGNQN[R]FESLE            1.33     PAD1      1.44   1.29   1.34   1.26
+152       TKQCE[R]FKYGG            1.31     PAD3      1.36   1.28   1.36   1.25
+274       KGFIQ[R]ISKGG            1.29     PAD2      1.24   1.33   1.30   1.29
+243       VIGKC[R]PFKYS            1.24     PAD3      1.16   1.20   1.31   1.28
+77        FNIFT[R]QCEEF            1.21     PAD3      1.23   1.19   1.34   1.09
+227       DRGLC[R]ANENR            1.20     PAD1      1.28   1.28   1.18   1.07
+232       RANEN[R]FYYNS            1.20     PAD3      1.20   1.16   1.39   1.05
+140       RGYIT[R]YFYNN            1.19     PAD3      1.06   1.18   1.49   1.03
+265       KQECL[R]ACKKG            1.17     PAD2      1.18   1.22   1.17   1.12
+106       KKMCT[R]DNANR            1.16     PAD2      1.25   1.25   1.10   1.05
+111       RDNAN[R]IIKTT            1.12     PAD3      1.10   1.18   1.21   0.99
+69        KAIMK[R]FFFNI            1.11     PAD3      1.00   1.04   1.41   1.00
+291       KRKKQ[R]VKIAY            1.04     PAD3      1.00   1.04   1.20   0.94
+285       LIKTK[R]KRKKQ            1.01     PAD3      1.00   1.07   1.07   0.90
+
+Citrullination Site Prediction for: sp|P00751|CFAB_HUMAN
+Sequence length: 764 amino acids
+Total arginine residues: 38
+Potential citrullination sites: 38
+
+================================================================================
+
+Position  Context                  Overall Score  Best PAD  PAD1    PAD2    PAD3    PAD4    
+--------------------------------------------------------------------------------
+546       VGGEK[R]DLEIE            1.51     PAD1      1.76   1.43   1.44   1.43
+696       DPNTC[R]GDSGG            1.49     PAD2      1.58   1.61   1.21   1.56
+658       KGSCE[R]DAQYA            1.42     PAD1      1.61   1.46   1.28   1.33
+419       DRKNP[R]EDYLD            1.41     PAD1      1.63   1.28   1.40   1.32
+117       GEYWP[R]SPYYN            1.39     PAD4      1.33   1.34   1.45   1.46
+406       VIDEI[R]DLLYI            1.39     PAD3      1.54   1.22   1.60   1.22
+182       VGSQY[R]LEDSV            1.38     PAD3      1.44   1.33   1.45   1.29
+50        KGGSF[R]LLQEG            1.38     PAD3      1.35   1.39   1.42   1.35
+138       DGYTL[R]GSANR            1.37     PAD2      1.36   1.53   1.28   1.33
+150       CQVNG[R]WSGQT            1.34     PAD2      1.29   1.43   1.27   1.37
+308       YGVKP[R]YGLVT            1.33     PAD3      1.21   1.30   1.44   1.36
+32        PWSLA[R]PQGSC            1.31     PAD2      1.23   1.40   1.22   1.39
+415       YIGKD[R]KNPRE            1.30     PAD1      1.43   1.26   1.27   1.25
+175       IPIGT[R]KVGSQ            1.30     PAD2      1.24   1.41   1.23   1.33
+485       MVWEH[R]KGTDY            1.30     PAD1      1.37   1.29   1.31   1.24
+105       AIHCP[R]PHDFE            1.30     PAD4      1.31   1.22   1.28   1.38
+503       KISVI[R]PSKGH            1.29     PAD4      1.23   1.31   1.28   1.35
+193       TYHCS[R]GLTLR            1.29     PAD2      1.25   1.43   1.22   1.25
+198       RGLTL[R]GSQRR            1.28     PAD2      1.28   1.45   1.22   1.19
+679       EVVTP[R]FLCTG            1.27     PAD3      1.18   1.26   1.41   1.25
+739       VPAHA[R]DFHIN            1.25     PAD3      1.27   1.27   1.29   1.16
+593       YGQTI[R]PICLP            1.24     PAD3      1.13   1.21   1.34   1.28
+605       TEGTT[R]ALRLP            1.24     PAD2      1.19   1.46   1.19   1.11
+77        QTRTC[R]STGSW            1.23     PAD2      1.22   1.48   1.07   1.17
+642       EKKLT[R]KEVYI            1.21     PAD3      1.25   1.20   1.31   1.10
+379       PEGWN[R]TRHVI            1.20     PAD2      1.19   1.26   1.26   1.09
+259       GEQQK[R]KIVLD            1.19     PAD3      1.23   1.14   1.25   1.14
+710       VHKRS[R]FIQVG            1.19     PAD3      1.15   1.22   1.31   1.07
+203       RGSQR[R]TCQEG            1.18     PAD2      1.26   1.36   1.08   1.04
+608       TTRAL[R]LPPTT            1.17     PAD2      1.06   1.27   1.26   1.10
+94        DQKTV[R]KAECR            1.16     PAD2      1.21   1.22   1.18   1.03
+99        RKAEC[R]AIHCP            1.16     PAD2      1.18   1.23   1.15   1.07
+202       LRGSQ[R]RTCQE            1.15     PAD2      1.23   1.30   1.09   0.99
+143       RGSAN[R]TCQVN            1.14     PAD2      1.11   1.32   1.06   1.08
+74        YPVQT[R]TCRST            1.13     PAD2      1.06   1.31   1.12   1.03
+708       LIVHK[R]SRFIQ            1.12     PAD3      1.10   1.15   1.24   1.00
+381       GWNRT[R]HVIIL            1.11     PAD3      1.05   1.17   1.27   0.97
+730       CKNQK[R]QKQVP            1.03     PAD3      1.02   1.02   1.06   1.05

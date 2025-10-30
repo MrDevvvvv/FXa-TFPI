@@ -1,0 +1,14 @@
+ source leaprc.protein.ff19SB
+ source leaprc.water.tip3p
+ 
+ ramp=loadpdb minimized_complex.pdb
+ 
+ addIons ramp Na+ 0
+ 
+ solvateOct ramp TIP3PBOX 14.0
+ 
+ saveamberparm ramp inp.prmtop inp.inpcrd
+
+ savepdb ramp F174F_3_5_postLEap.pdb
+ 
+ quit

@@ -1,0 +1,14 @@
+CPU Energy Minimization Stage in Explicit Solvent
+&cntrl
+  imin=1,            ! Perform an energy minimization
+  ntb=1,             ! Boundaries (=1, constant volume)
+  cut=12.0,          ! Cutoff
+  irest=0,           ! Do not restart simulations
+  ntmin=1,           ! Method of minimization
+  ncyc=100,          ! Number of steepest descent cycles
+  maxcyc=1000,       ! Maximum number of minimization cycles
+  igb=0,             ! GB model (=0, explicit solvent)
+  saltcon=0.15,      ! Salt concentration
+  ntpr=50,           ! Output setting
+  ntwx=50,	     ! Output setting
+/

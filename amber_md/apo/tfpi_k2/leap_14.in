@@ -1,0 +1,21 @@
+ source leaprc.protein.ff19SB
+ source leaprc.water.tip3p
+ 
+ ramp=loadpdb F174F_amber1.pdb
+ 
+ addIons ramp Cl- 0
+ 
+ solvateOct ramp TIP3PBOX 14.0
+ addIonsRand ramp Na+ 16 Cl- 16
+  
+ bond ramp.2.SG ramp.52.SG
+ saveamberparm ramp inp.prmtop inp.inpcrd
+
+ check ramp
+ desc ramp.2.SG
+ desc ramp.52.SG
+ desc ramp.11.SG 
+ desc ramp.35.SG 
+ savepdb ramp F174F_3_5_postLEap.pdb
+ 
+ quit

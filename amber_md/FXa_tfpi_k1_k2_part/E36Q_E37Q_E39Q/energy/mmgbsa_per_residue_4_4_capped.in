@@ -1,0 +1,13 @@
+Input file for running PB and GB
+&general
+  startframe=100, endframe=50000000, interval=100,
+/
+&gb
+  igb=2, saltcon=0.150,, 
+/
+&decomp
+  idecomp=1,
+  dec_verbose=1,
+/
+
+

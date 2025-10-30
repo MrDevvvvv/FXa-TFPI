@@ -1,0 +1,7 @@
+parm inp.prmtop
+trajin md.nc 1 -1
+autoimage
+strip :Na+,Cl-,WAT outprefix stripped
+trajout stripped_md.nc
+run
+quit
