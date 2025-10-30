@@ -1,0 +1,9 @@
+parm inp.prmtop
+trajin md.nc
+autoimage
+strip :WAT,Na+,Cl-,
+strip :285-355 outprefix stripped_FXa_k1
+trajout stripped_FXa_k1_md.nc
+run
+quit
+

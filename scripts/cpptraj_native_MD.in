@@ -1,0 +1,16 @@
+parm inp.prmtop
+trajin md.nc 1 -1 100
+autoimage
+strip :WAT,Na+,Cl-
+rmsd :1-24
+
+nativecontacts :234-284 :1-233 \
+  out contactOut.dat \
+  series seriesout contactData.dat \
+  byresidue \
+  resseries present \ 
+  resseriesout contactResSer.csv \
+  distance 3.0 \
+  contactpdb contactsPDB.pdb \
+  writecontacts contacts.dat
+run
